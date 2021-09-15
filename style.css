@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.box {
+  border: 2px solid #89bbca;
+  border-radius: 10px;
+}
+.one {
+  background-color:#dbc777;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  z-index: 1;
+  opacity: .4;
+}
+.two {
+  background-color:#89bbca;
+  grid-column: 4 / 2 ;
+  grid-row: 1 / 3 ;
+}
+.three {
+  background-color:#f170a2;
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+}
+.four {
+  background-color:#944a1a;
+  grid-column: 3 /4;
+}
+.five {
+  background-color:#8d6161;
+  grid-column: 2 / 3;
+}
+.six {
+  background-color:#5cd8d1;
+  grid-column: 3 / 4;
+  grid-row: 4;
+}
+.seven {
+  background-color:#b67540;
+}
+.eight {
+  background-color:#324f3e;
+  justify-self: stretch;
+  align-self: stretch;
+}
+.container {
+  width: 80%;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #dfdddd;
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 10px;
+
+
+}
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+ border: 2px solid red;
+}
+h1 {
+  color: #fff;
+}
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+ul li a:hover {
+  color: blue;
+}
+
+ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: rgb(35, 122, 118);
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid  rgb(35, 122, 118);
+}
+button:hover {
+    background-color: white;
+    color: black;
+} 
